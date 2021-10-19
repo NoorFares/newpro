@@ -1,0 +1,36 @@
+.container h1{
+    text-align: center;
+    background-color: pink;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+.container{
+    border:5px solid palevioletred;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.flex-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    border:3px solid plum;
+    padding: 10px;
+     flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid palevioletred;
+}
+.container button{
+    padding: 10px;
+    color: white;
+    background-color: palevioletred;
+    border-radius: 50%;
+}
+.flex-box-container img{
+    padding: 10px;
+    margin: 10px;
+box-shadow: 0px 10px 50px rgb(146, 85, 146);
+}
